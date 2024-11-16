@@ -6,7 +6,7 @@ const players = [
       nationality: "Argentina",
       jerseyNumber: 10,
       age: 36,
-      image: "https://example.com/messi.jpg"
+      image: "/assets/messi.png"
     },
     {
       name: "Cristiano Ronaldo",
@@ -14,7 +14,7 @@ const players = [
       nationality: "Portugal",
       jerseyNumber: 7,
       age: 38,
-      image: "https://example.com/ronaldo.jpg"
+      image: "/assets/ronaldo.png"
     },
     {
       name: "Kylian Mbappé",
@@ -22,16 +22,16 @@ const players = [
       nationality: "France",
       jerseyNumber: 7,
       age: 24,
-      image: "https://example.com/mbappe.jpg"
+      image: "/assets/mbappe.png"
     },
-    {
-      name: "Erling Haaland",
-      team: "Manchester City",
-      nationality: "Norway",
-      jerseyNumber: 9,
-      age: 23,
-      image: "https://example.com/haaland.jpg"
-    }
+    // {
+    //   name: "Erling Haaland",
+    //   team: "Manchester City",
+    //   nationality: "Norway",
+    //   jerseyNumber: 9,
+    //   age: 23,
+    //   image: "https://example.com/haaland.jpg"
+    // }
   ];
   
   export default players;

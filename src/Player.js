@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Player({ name, team, nationality, jerseyNumber, age, image }) {
   const cardStyle = {
     width: '18rem',
+    height:"4rem",
     margin: '10px',
     boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)'
   };
